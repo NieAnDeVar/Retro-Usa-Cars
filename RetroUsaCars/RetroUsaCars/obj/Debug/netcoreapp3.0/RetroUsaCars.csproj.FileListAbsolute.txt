@@ -20,16 +20,11 @@ C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.TagHelpers.input.cache
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.TagHelpers.output.cache
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.RazorCoreGenerate.cache
-C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.RazorTargetAssemblyInfo.cs
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.Views.pdb
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.dll
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.pdb
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\RetroUsaCars.csproj.CopyComplete
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Log in.cshtml.g.cs
