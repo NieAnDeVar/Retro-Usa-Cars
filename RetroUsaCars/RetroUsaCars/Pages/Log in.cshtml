@@ -8,67 +8,73 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Log in</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
-  <link rel="stylesheet" href="css/Login.css">
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/Login.css">
 </head>
 <body>
 
 <script>var articleLink = '/scripts/forms/499-veb-forma-avtorizacii-i-registracii-na-sayte.html';</script>
 <div class="cotn_principal">
 
-    <a class="Back_button" href="@Url.Page("/index")" ><button>Back</button></a>
-   
-  <div class="cont_centrar">
-    <div class="cont_login">
-      <div class="cont_info_log_sign_up">
-        <div class="col_md_login">
-          <div class="cont_ba_opcitiy">
-            <h2>Log in</h2>
-            <p>Already have a login?</p>
-            <button class="btn_login" onclick="cambiar_login()">Log in</button>
-          </div>
+    <a class="Back_button" href="@Url.Page("/index")">
+        <button>Back</button>
+    </a>
+
+    <div class="cont_centrar">
+        <div class="cont_login">
+            <div class="cont_info_log_sign_up">
+                <div class="col_md_login">
+                    <div class="cont_ba_opcitiy">
+                        <h2>Log in</h2>
+                        <p>Already have a login?</p>
+                        <button class="btn_login" onclick="cambiar_login()">Log in</button>
+                    </div>
+                </div>
+                <div class="col_md_sign_up">
+                    <div class="cont_ba_opcitiy">
+                        <h2>Registartion</h2>
+                        <p>No login?</p>
+                        <button class="btn_sign_up" onclick="cambiar_sign_up()">Registration</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_back_info">
+                <div class="cont_img_back_grey">
+                    <img src="img/bg.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="cont_forms">
+                <div class="cont_img_back_">
+                    <img src="img/bg.jpg" alt=""/>
+                </div>
+                <div class="cont_form_login">
+                    <a href="#" onclick="ocultar_login_sign_up()">
+                        <i class="material-icons">&#xE5C4;</i>
+                    </a>
+                    <h2>Log in</h2>
+                    <input style="color: black;" type="text" placeholder="E-mail"/>
+                    <input style="color: black;" type="password" placeholder="Password"/>
+                    <button class="btn_login" onclick="cambiar_login()">Log in</button>
+                </div>
+                <div class="cont_form_sign_up">
+                    <a href="#" onclick="ocultar_login_sign_up()">
+                        <i class="material-icons">&#xE5C4;</i>
+                    </a>
+                    <h2>Registartion</h2>
+                    <input style="color: black;" type="text" placeholder="E-mail"/>
+                    <input style="color: black;" type="text" placeholder="Login"/>
+                    <input style="color: black;" type="password" placeholder="Password"/>
+                    <input style="color: black;" type="password" placeholder="Repeat password"/>
+                    <button class="btn_sign_up" onclick="cambiar_sign_up()">Register</button>
+                </div>
+            </div>
         </div>
-        <div class="col_md_sign_up">
-          <div class="cont_ba_opcitiy">
-            <h2>Registartion</h2>
-            <p>No login?</p>
-            <button class="btn_sign_up" onclick="cambiar_sign_up()">Registration</button>
-          </div>
-        </div>
-      </div>
-      <div class="cont_back_info">
-        <div class="cont_img_back_grey">
-          <img src="img/bg.jpg" alt="" />
-        </div>
-      </div>
-      <div class="cont_forms">
-        <div class="cont_img_back_">
-          <img src="img/bg.jpg" alt="" />
-        </div>
-        <div class="cont_form_login">
-          <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
-          <h2>Log in</h2>
-          <input type="text" placeholder="E-mail" />
-          <input type="password" placeholder="Password" />
-          <button class="btn_login" onclick="cambiar_login()">Log in</button>
-        </div>
-        <div class="cont_form_sign_up">
-          <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
-          <h2>Registartion</h2>
-          <input type="text" placeholder="E-mail" />
-          <input type="text" placeholder="Login" />
-          <input type="password" placeholder="Password" />
-          <input type="password" placeholder="Repeat password" />
-          <button class="btn_sign_up" onclick="cambiar_sign_up()">Register</button>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 
-  <script src="js/index.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

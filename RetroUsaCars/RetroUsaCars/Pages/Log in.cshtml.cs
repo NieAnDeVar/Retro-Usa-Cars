@@ -6,7 +6,6 @@ namespace RetroUsaCars.Pages
     {
         public void OnGet()
         {
-            
         }
     }
 }

@@ -5,6 +5,7 @@
   font-family: 'Open Sans', sans-serif;
   
 }
+
 .Back_button{
   background-color: black;  
 }
@@ -54,6 +55,7 @@
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  color: #1b1e21;
 }
 
 .cont_forms_active_login {
