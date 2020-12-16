@@ -13,7 +13,6 @@ namespace RetroUsaCars.Pages
 {
     public class Log_in : PageModel
     {
-        [BindProperty]
         User userReg{ get; set;}
         [BindProperty]
         public string password { get; set; }
@@ -33,7 +32,7 @@ namespace RetroUsaCars.Pages
 
         public void OnPost()
         {
-            Register(usermail, password,password2, usermail);
+            Register(usermail, password,password2, username);
         }
     }
 }

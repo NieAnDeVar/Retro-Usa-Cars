@@ -30,15 +30,23 @@ namespace RetroUsaCars.models
         public string username { get; set; }
         public static bool Register( string email, string pas1, string pas2, string username)
         {
-            if (ValidateEmail(email) || ValidatePass(pas1, pas2)|| ValidateEmailRepeat(email)|| !(email == null) || !(pas1 == null)|| !(pas2 == null)|| !(username == null))
+            try
             {
-                Create(email, pas1, username);
-                return true;
+                if (ValidateEmail(email) && ValidatePass(pas1, pas2)&&  !(pas1 == null)&& !(pas2 == null)&& !(username == null))
+                {
+                    Create(email, pas1, username);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch (Exception e)
             {
                 return false;
             }
+
         }
         public static bool ValidateEmail(string emailAddress)
         {
@@ -59,7 +67,7 @@ namespace RetroUsaCars.models
 
             using var cmd = new NpgsqlCommand();
             cmd.Connection = con;
-            cmd.CommandText = "INSERT INTO Users (balance, isadmin,isavailable, password,usermail,name) VALUES(0,false,true,@pas1,@email,@username)";
+            cmd.CommandText = "INSERT INTO Users (balance, isadmin,isavailable, password,usermail, name) VALUES(0,false,true,@pas1,@email,@username)";
             cmd.Parameters.AddWithValue("email", email);
             cmd.Parameters.AddWithValue("pas1", pas1);
             cmd.Parameters.AddWithValue("username", username);
@@ -69,31 +77,7 @@ namespace RetroUsaCars.models
 
         }
 
-        public static bool ValidateEmailRepeat(string email)
-        {
-                var cs =  "Host=localhost;Username=postgres;Password=qwerty;Database=Retro Usa Cars;";
-                using var con = new NpgsqlConnection(cs);
-                con.Open();
-
-                using var cmd = new NpgsqlCommand();
-                cmd.Connection = con;
-                cmd.CommandText = "SELECT name From Users WHERE usermail = @email ";
-                cmd.Parameters.AddWithValue("email", email);
-                cmd.Prepare();
-                
-                string reader = cmd.ExecuteReader().ToString();
-                if (reader == email)
-                {
-                    return false;
-                }
-                else
-                {
-
-
-                    return true;
-                }
-                
-        }
+        
     }
     
 
