@@ -1,25 +1,36 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
+using System.Text.RegularExpressions;
 using Dapper;
 using System.Collections.Generic;
 using System.Data;    
 using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
+using Npgsql;
+using NpgsqlTypes;
 
 
 namespace RetroUsaCars.models
 {
     public class User
     {
-        public int balance;
-        public bool IsAdmin;
-        public bool IsAvailable;
-        public string password;
-        public int userid;
-        public string usermail;
-        public string username;
+       
+        public int balance { get; set; }
+     
+        public bool IsAdmin { get; set; }
+      
+        public bool IsAvailable { get; set; }
+        
+        public string password { get; set; }
+        
+        public int userid { get; set; }
+        
+        public string usermail { get; set; }
+        
+        public string username { get; set; }
         public static bool Register( string email, string pas1, string pas2, string username)
         {
-            if (ValidateEmail(email) || ValidatePass(pas1, pas2)|| ValidateEmailRepeat(email))
+            if (ValidateEmail(email) || ValidatePass(pas1, pas2)|| ValidateEmailRepeat(email)|| !(email == null) || !(pas1 == null)|| !(pas2 == null)|| !(username == null))
             {
                 Create(email, pas1, username);
                 return true;
@@ -41,40 +52,47 @@ namespace RetroUsaCars.models
             return ((pas1 == pas2)|| pas1.Length < 21);
         }
         public static void Create(string email, string pas1, string username)
-        {
-            string connectionString = "Host=localhost; " +
-                                      "Username=postgres;" +
-                                      "Password = qwerty;" +
-                                      "Database = Retro Usa Cars;";
-            using (IDbConnection db = new SqlConnection(connectionString))
-            {
-                
-                var sqlQuery = "INSERT INTO Users (balance, isadmin,isavailable, password,usermail,name) VALUES(0,false,true,@email,@pas1, @username)";
-                db.Execute(sqlQuery, (email,  pas1));
-                
-            }
+        { 
+            var cs =  "Host=localhost;Username=postgres;Password=qwerty;Database=Retro Usa Cars;";
+            using var con = new NpgsqlConnection(cs);
+            con.Open();
+
+            using var cmd = new NpgsqlCommand();
+            cmd.Connection = con;
+            cmd.CommandText = "INSERT INTO Users (balance, isadmin,isavailable, password,usermail,name) VALUES(0,false,true,@pas1,@email,@username)";
+            cmd.Parameters.AddWithValue("email", email);
+            cmd.Parameters.AddWithValue("pas1", pas1);
+            cmd.Parameters.AddWithValue("username", username);
+            cmd.Prepare();
+
+            cmd.ExecuteNonQuery();
+
         }
 
         public static bool ValidateEmailRepeat(string email)
         {
-            string connectionString = "Host=localhost; " +
-                                      "Username=postgres;" +
-                                      "Password = qwerty;" +
-                                      "Database = Retro Usa Cars;";
-            using (IDbConnection db = new SqlConnection(connectionString))
-            {
+                var cs =  "Host=localhost;Username=postgres;Password=qwerty;Database=Retro Usa Cars;";
+                using var con = new NpgsqlConnection(cs);
+                con.Open();
+
+                using var cmd = new NpgsqlCommand();
+                cmd.Connection = con;
+                cmd.CommandText = "SELECT name From Users WHERE usermail = @email ";
+                cmd.Parameters.AddWithValue("email", email);
+                cmd.Prepare();
                 
-                var sqlQuery = "SELECT name From Users WHERE usermail = @email ";
-                if (db.Execute(sqlQuery,email) == null)
-                {
-                    return true;
-                }
-                else
+                string reader = cmd.ExecuteReader().ToString();
+                if (reader == email)
                 {
                     return false;
                 }
+                else
+                {
+
+
+                    return true;
+                }
                 
-            }
         }
     }
     
