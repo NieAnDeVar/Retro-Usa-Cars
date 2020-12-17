@@ -23,15 +23,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d45a5ed0-7f79-49eb-b628-168a8ebc3ffa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3/storage_v2/_src_/database/Retro_Usa_Cars.PhMSmg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3/storage_v2/_src_/database/Retro_Usa_Cars.PhMSmg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Fail.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Fail.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Success.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/RetroUsaCars.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/RetroUsaCars.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/models/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/models/Login.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Log in.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Log in.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/RetroUsaCars.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/RetroUsaCars.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/wwwroot/css/Chevrolet_ZR.css" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/wwwroot/css/Chevrolet_ZR.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +65,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/159/SemaphoreSlim.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Privacy.cshtml" />
-        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Index.cshtml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/15297df1-32e6-4691-95ea-98f3279d4da6/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d3ce3d56-29ea-4e82-b7eb-88d617058d01/console.sql" />
         <option value="$PROJECT_DIR$/RetroUsaCars/wwwroot/css/Login.css" />
-        <option value="$PROJECT_DIR$/RetroUsaCars/models/Login.cs" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Startup.cs" />
-        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml" />
-        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml.cs" />
+        <option value="$PROJECT_DIR$/../../Search.html" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Success.cshtml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/04f896d2-99c1-4683-9e6d-27c336773bc3/console.sql" />
         <option value="$PROJECT_DIR$/RetroUsaCars/models/User.cs" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Success.cshtml.cs" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/models/Login.cs" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml.cs" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Fail.cshtml" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml.cs" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -66,11 +99,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.20519836" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.7056856" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.RetroUsaCars">
+  <component name="RunManager" selected=".NET Launch Settings Profile.RetroUsaCars: IIS Express">
     <configuration name="RetroUsaCars" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RetroUsaCars/RetroUsaCars.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
@@ -117,7 +153,7 @@
       <workItem from="1608019520269" duration="8969000" />
       <workItem from="1608036920563" duration="15053000" />
       <workItem from="1608122278044" duration="5848000" />
-      <workItem from="1608128610160" duration="3125000" />
+      <workItem from="1608128610160" duration="34443000" />
     </task>
     <servers />
   </component>
@@ -154,29 +190,97 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="515" y="297" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1607694166115" />
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom" timestamp="1608131681282">
+    <state width="1493" height="115" key="GridCell.Tab.0.bottom" timestamp="1608230052313">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608131681282" />
-    <state width="1493" height="115" key="GridCell.Tab.0.center" timestamp="1608131681282">
+    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608230052313" />
+    <state width="1493" height="115" key="GridCell.Tab.0.center" timestamp="1608230052311">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608131681282" />
-    <state width="1493" height="115" key="GridCell.Tab.0.left" timestamp="1608131681281">
+    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608230052311" />
+    <state width="1493" height="115" key="GridCell.Tab.0.left" timestamp="1608230052311">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608131681281" />
-    <state width="1493" height="115" key="GridCell.Tab.0.right" timestamp="1608131681282">
+    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608230052311" />
+    <state width="1493" height="115" key="GridCell.Tab.0.right" timestamp="1608230052313">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608131681282" />
+    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608230052313" />
+    <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1608148796530">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608148796530" />
+    <state width="1493" height="304" key="GridCell.Tab.1.center" timestamp="1608148796530">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1608148796530" />
+    <state width="1493" height="304" key="GridCell.Tab.1.left" timestamp="1608148796530">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1608148796530" />
+    <state width="1493" height="304" key="GridCell.Tab.1.right" timestamp="1608148796530">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1608148796530" />
+    <state width="1493" height="304" key="GridCell.Tab.2.bottom" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.2.center" timestamp="1608148796530">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1608148796530" />
+    <state width="1493" height="304" key="GridCell.Tab.2.left" timestamp="1608148796530">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1608148796530" />
+    <state width="1493" height="304" key="GridCell.Tab.2.right" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.3.bottom" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.3.center" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.3.left" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.3.right" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.4.bottom" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.4.center" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.center/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.4.left" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.left/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
+    <state width="1493" height="304" key="GridCell.Tab.4.right" timestamp="1608148796531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.right/0.0.1536.864@0.0.1536.864" timestamp="1608148796531" />
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1607692481064">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size/0.0.1536.864@0.0.1536.864" timestamp="1607692481064" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608064288114">
+    <state x="320" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608144764873">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1608064288114" />
+    <state x="320" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864@0.0.1536.864" timestamp="1608144764873" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608140375413">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1608140375413" />
   </component>
 </project>

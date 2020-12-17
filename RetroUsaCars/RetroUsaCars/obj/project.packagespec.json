@@ -31,6 +31,10 @@
           "target": "Package",
           "version": "[2.0.78, )"
         },
+        "Microsoft.AspNetCore.Authentication.Cookies": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
         "Microsoft.Data.SqlClient": {
           "target": "Package",
           "version": "[2.1.0, )"

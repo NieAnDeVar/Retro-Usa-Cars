@@ -1,9 +1,11 @@
-﻿@page
+﻿@page "{handler?}"
+
 @model RetroUsaCars.Pages.Log_in
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = null;
 }
+
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -56,9 +58,11 @@
                         <i class="material-icons">&#xE5C4;</i>
                     </a>
                     <h2>Log in</h2>
-                    <input  style="color: black;" type="text" name="LogInEmail"  placeholder="E-mail"/>
-                    <input style="color: black;" type="password" name="LogInPass" placeholder="Password"/>
-                    <button class="btn_login" onclick="cambiar_login()">Log in</button>
+                    <form method="post">
+                    <input asp-for="LEmail" asp-page-handler="Log" style="color: black;" type="text"   placeholder="E-mail"/>
+                    <input asp-for="LPass" asp-page-handler="Log" style="color: black;" type="password"  placeholder="Password"/>
+                    <input type="submit" asp-page-handler="Log" class="btn_login" onclick="cambiar_login()">Log in</input>
+                    </form>
                 </div>
                 <div class="cont_form_sign_up">
                     <a href="#" onclick="ocultar_login_sign_up()">
@@ -66,11 +70,11 @@
                     </a>
                     <h2>Registartion</h2>
                     <form method="post">
-                    <input asp-for="usermail" style="color: black;"  type="text"  placeholder="E-mail"/>
-                    <input asp-for="username" style="color: black;" type="text"  placeholder="Login"/>
-                    <input asp-for="password" style="color: black;" type="password"  placeholder="Password"/>
-                    <input asp-for="password2" style="color: black;" type="password"  placeholder="Repeat password"/>
-                    <input type="submit" class="btn_sign_up" onclick="cambiar_sign_up()">Register</input>
+                    <input asp-for="usermail" asp-page-handler="Reg" style="color: black;"  type="text"  placeholder="E-mail"/>
+                    <input asp-for="username" asp-page-handler="Reg"   style="color: black;" type="text"  placeholder="Login"/>
+                    <input asp-for="password"  asp-page-handler="Reg"  style="color: black;" type="password"  placeholder="Password"/>
+                    <input asp-for="password2" asp-page-handler="Reg"   style="color: black;" type="password"  placeholder="Repeat password"/>
+                    <input type="submit" asp-page-handler="Reg" class="btn_sign_up" onclick="cambiar_sign_up()">Register</input>
                      </form>
                 </div>
             </div>

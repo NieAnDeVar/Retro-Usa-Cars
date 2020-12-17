@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using Dapper;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Data;    
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
@@ -74,10 +74,47 @@ namespace RetroUsaCars.models
             cmd.Prepare();
 
             cmd.ExecuteNonQuery();
-
+            con.Close();
         }
-
         
+
+        public static User CheckLoginAndLogin(string email, string pass)
+        {
+            User user = new User();
+            if ((email != null) && (pass != null))
+            {
+                var cs = "Host=localhost;Username=postgres;Password=qwerty;Database=Retro Usa Cars;";
+                using var con = new NpgsqlConnection(cs);
+                con.Open();
+                using var cmd = new NpgsqlCommand();
+                cmd.Connection = con;
+                cmd.CommandText = "SELECT  * From users WHERE usermail =@email";
+                cmd.Parameters.AddWithValue("email", email);
+                cmd.Prepare();
+                var reader = cmd.ExecuteReader();
+                    reader.Read();
+                    if (reader.HasRows)
+                {
+                    if ((reader.GetString(4) == pass) && (reader.GetBoolean(2) == true))
+                    {
+                        user.password = pass;
+                        user.userid = reader.GetInt32(0);
+                        user.balance = reader.GetInt32(1);
+                        user.IsAdmin = reader.GetBoolean(2);
+                        user.IsAvailable = reader.GetBoolean(3);
+                        user.username = reader.GetString(5);
+                        user.usermail = email;
+                        
+                    }
+                } 
+                reader.Close();
+            }
+
+            return user;
+        }
+        
+
+
     }
     
 

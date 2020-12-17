@@ -16,6 +16,7 @@ namespace RetroUsaCars.Pages
         User userReg{ get; set;}
         [BindProperty]
         public string password { get; set; }
+
         [BindProperty]
         public string password2 { get; set; }
         [BindProperty]
@@ -25,14 +26,42 @@ namespace RetroUsaCars.Pages
         [BindProperty]
         public string username { get; set; }
         
+        [BindProperty]
+        public string LEmail { get; set; }
+        [BindProperty]
+        public string LPass { get; set; }
         public void OnGet()
         {
             
         }
 
-        public void OnPost()
+        public IActionResult OnPostLog()
         {
-            Register(usermail, password,password2, username);
+
+
+            
+            
+            if (CheckLoginAndLogin(LEmail, LPass).password != null)
+            {
+
+                HttpContext.Response.Cookies.Append("Email", LEmail);
+                HttpContext.Response.Cookies.Append("Pass",LPass);
+                return Redirect("/Account");
+            }
+            return Redirect("/Fail");
+            
+        }
+
+        public IActionResult OnPostReg()
+        {
+            if (Register(usermail, password, password2, username))
+            {
+                return Redirect("/Success");
+            }
+            else
+            {
+                return Redirect("/Fail");
+            }
         }
     }
 }

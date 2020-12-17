@@ -24,10 +24,18 @@
           </e>
         </e>
         <e p="Pages" t="Include">
+          <e p="Account.cshtml" t="Include" />
+          <e p="Account.cshtml.cs" t="Include" />
+          <e p="Fail.cshtml" t="Include" />
+          <e p="Fail.cshtml.cs" t="Include" />
           <e p="Index.cshtml" t="Include" />
           <e p="Index.cshtml.cs" t="Include" />
           <e p="Log in.cshtml" t="Include" />
           <e p="Log in.cshtml.cs" t="Include" />
+          <e p="Success.cshtml" t="Include" />
+          <e p="Success.cshtml.cs" t="Include" />
+          <e p="Support.cshtml" t="Include" />
+          <e p="Support.cshtml.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
