@@ -23,36 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d45a5ed0-7f79-49eb-b628-168a8ebc3ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RetroUsaCars/models/Photo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3/storage_v2/_src_/database/Retro_Usa_Cars.PhMSmg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/dataSources/04f896d2-99c1-4683-9e6d-27c336773bc3/storage_v2/_src_/database/Retro_Usa_Cars.PhMSmg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroUsaCars/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/RetroUsaCars.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/RetroUsaCars.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/AdminAccount.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/AdminAccount.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/Pages/AdminAccount.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/Pages/AdminAccount.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/bin/Debug/netcoreapp3.0/RetroUsaCars.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Account.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Account.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/models/Login.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetroUsaCars/models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/Debug/netcoreapp3.0/RetroUsaCars.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/RetroUsaCars.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/RetroUsaCars.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetroUsaCars/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RetroUsaCars/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,19 +61,21 @@
         <option value="$PROJECT_DIR$/RetroUsaCars/wwwroot/css/Login.css" />
         <option value="$PROJECT_DIR$/../../Search.html" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Success.cshtml" />
-        <option value="$PROJECT_DIR$/RetroUsaCars/models/User.cs" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Success.cshtml.cs" />
         <option value="$PROJECT_DIR$/RetroUsaCars/models/Login.cs" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Fail.cshtml" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Index.cshtml" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Support.cshtml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/04f896d2-99c1-4683-9e6d-27c336773bc3/console.sql" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Log in.cshtml.cs" />
         <option value="$PROJECT_DIR$/RetroUsaCars/models/Photo.cs" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml" />
-        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml.cs" />
         <option value="$PROJECT_DIR$/RetroUsaCars/Startup.cs" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/AdminAccount.cshtml.cs" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/AdminAccount.cshtml" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/Pages/Account.cshtml.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/04f896d2-99c1-4683-9e6d-27c336773bc3/console.sql" />
+        <option value="$PROJECT_DIR$/RetroUsaCars/models/User.cs" />
       </list>
     </option>
   </component>
@@ -152,7 +141,7 @@
       <workItem from="1608019520269" duration="8969000" />
       <workItem from="1608036920563" duration="15053000" />
       <workItem from="1608122278044" duration="5848000" />
-      <workItem from="1608128610160" duration="49875000" />
+      <workItem from="1608128610160" duration="53425000" />
     </task>
     <servers />
   </component>
@@ -189,22 +178,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="515" y="297" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1607694166115" />
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom" timestamp="1608254226268">
+    <state width="1493" height="115" key="GridCell.Tab.0.bottom" timestamp="1608263686136">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608254226268" />
-    <state width="1493" height="115" key="GridCell.Tab.0.center" timestamp="1608254226268">
+    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608263686136" />
+    <state width="1493" height="115" key="GridCell.Tab.0.center" timestamp="1608263686135">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608254226268" />
-    <state width="1493" height="115" key="GridCell.Tab.0.left" timestamp="1608254226268">
+    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608263686135" />
+    <state width="1493" height="115" key="GridCell.Tab.0.left" timestamp="1608263686135">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608254226268" />
-    <state width="1493" height="115" key="GridCell.Tab.0.right" timestamp="1608254226268">
+    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608263686135" />
+    <state width="1493" height="115" key="GridCell.Tab.0.right" timestamp="1608263686135">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608254226268" />
+    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608263686135" />
     <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1608148796530">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

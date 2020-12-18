@@ -27,14 +27,22 @@ namespace RetroUsaCars.Pages
                 user = CheckLoginAndLogin(Email, Pass);
                 if (user.password == null)
                 {
-                    return Redirect("/Log in");
+                    return Redirect("/Fail"); 
                 }
                 else
                 {
-                    
+                    if (user.IsAdmin)
+                    {
+                        return Redirect("/AdminAccount");
+                    }
+                    else
+                    {
+                        return null;
+                        
+                    }
                     
 
-                    return null;
+                    
                 }
             }
             else

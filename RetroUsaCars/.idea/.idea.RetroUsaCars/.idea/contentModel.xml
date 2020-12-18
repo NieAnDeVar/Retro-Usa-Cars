@@ -12,7 +12,6 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="models" t="Include">
-          <e p="Login.cs" t="Include" />
           <e p="Photo.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
