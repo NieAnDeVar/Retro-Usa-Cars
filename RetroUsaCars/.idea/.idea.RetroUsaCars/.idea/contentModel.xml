@@ -13,6 +13,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="models" t="Include">
           <e p="Login.cs" t="Include" />
+          <e p="Photo.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -26,6 +27,8 @@
         <e p="Pages" t="Include">
           <e p="Account.cshtml" t="Include" />
           <e p="Account.cshtml.cs" t="Include" />
+          <e p="AdminAccount.cshtml" t="Include" />
+          <e p="AdminAccount.cshtml.cs" t="Include" />
           <e p="Fail.cshtml" t="Include" />
           <e p="Fail.cshtml.cs" t="Include" />
           <e p="Index.cshtml" t="Include" />
@@ -125,6 +128,9 @@
               <e p="jquery.validate.unobtrusive.min.js" t="Include" />
               <e p="LICENSE.txt" t="Include" />
             </e>
+          </e>
+          <e p="Photos" t="Include">
+            <e p="default.png" t="Include" />
           </e>
         </e>
       </e>

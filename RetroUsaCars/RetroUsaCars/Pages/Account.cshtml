@@ -1,8 +1,21 @@
 ﻿@page
-@model RetroUsaCars.Pages.Success
+@model RetroUsaCars.Pages.Account
 @using RetroUsaCars.models
 @using RetroUsaCars.Pages
+@using static RetroUsaCars.models.Photo
 @using static RetroUsaCars.models.User;
+@using static System.Web.Helpers.WebImage;
+@using System;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+
+    string id = HttpContext.Request.Cookies["id"];
+    string path = Photo.GetPath(Convert.ToInt32(id));
+    path = @"/Photos/" + path;
+}
+       
+
 
 @{
     Layout = null;
@@ -31,7 +44,17 @@
     <span class="v25_0"><a class = "aq" href="FAQ.html" >FAQ</a></span>
     <span class="v23_4"><a class = "aq" href="Cars.html" >Cars</a></span>
     <div class="v42_7"></div>
-    <span class="v42_8">@user.username <br> balance: @user.balance</span>
+    <span class="v42_8"><img src="@path" alt="@path" width="300px" /> @user.username <br> balance: @user.balance<br>
+        <form  method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend> Upload Image </legend>
+                <label for="Image">Image</label>
+                <input type="file" name="Image" />
+                <br/>
+                <input asp-for="photo" type="submit" value="Upload"  />
+            </fieldset>
+        </form>
+        </span>
 </div>
 </body>
 </html>

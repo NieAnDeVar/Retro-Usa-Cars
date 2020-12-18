@@ -1,13 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Web.Helpers;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RetroUsaCars.models;
 using static RetroUsaCars.models.User; 
+using static RetroUsaCars.models.Photo; 
 namespace RetroUsaCars.Pages
 {
     public class Account : PageModel
     {    
         [BindProperty]
         public User user { get; set; }
+
+        [BindProperty]
+        public WebImage photo { get; set; }
+
         public IActionResult OnGet()
         {
             
@@ -24,6 +32,7 @@ namespace RetroUsaCars.Pages
                 else
                 {
                     
+                    
 
                     return null;
                 }
@@ -35,5 +44,27 @@ namespace RetroUsaCars.Pages
 
 
         }
+
+        public IActionResult OnPost()
+        {
+            
+            
+            
+            
+            
+            if (AddFile(photo,Convert.ToInt32(HttpContext.Request.Cookies["id"])))
+            {
+                return Redirect("/Account");
+            }
+            else
+            {
+                return Redirect("/Fail");
+            }
+
+
+        }
+
+
+        
     }
 }

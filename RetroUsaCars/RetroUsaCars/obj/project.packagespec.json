@@ -31,6 +31,10 @@
           "target": "Package",
           "version": "[2.0.78, )"
         },
+        "Microsoft.AspNet.WebPages": {
+          "target": "Package",
+          "version": "[3.2.7, )"
+        },
         "Microsoft.AspNetCore.Authentication.Cookies": {
           "target": "Package",
           "version": "[2.2.0, )"

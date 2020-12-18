@@ -789,7 +789,7 @@ false Zulu
     <database id="2" parent="1" name="Retro Usa Cars">
       <ObjectId>16425</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>537</IntrospectionStateNumber>
+      <IntrospectionStateNumber>564</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16426|16428|1
 </Relations>
@@ -848,7 +848,7 @@ false Zulu
       <Comment>standard public schema</Comment>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>538</IntrospectionStateNumber>
+      <IntrospectionStateNumber>565</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="16" parent="2" name="heap">
@@ -927,7 +927,7 @@ false Zulu
     <table id="29" parent="15" name="users">
       <ObjectId>16428</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>536</StateNumber>
+      <StateNumber>563</StateNumber>
     </table>
     <column id="30" parent="29" name="userid">
       <Position>1</Position>
@@ -973,27 +973,33 @@ false Zulu
       <StateNumber>536</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="37" parent="29" name="users_pkey">
+    <column id="37" parent="29" name="photoname">
+      <Position>10</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <StateNumber>563</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="38" parent="29" name="users_pkey">
       <ObjectId>16432</ObjectId>
       <StateNumber>503</StateNumber>
       <ColNames>userid</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <index id="38" parent="29" name="users_usermail_key">
+    <index id="39" parent="29" name="users_usermail_key">
       <ObjectId>16434</ObjectId>
       <StateNumber>536</StateNumber>
       <ColNames>usermail</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="39" parent="29" name="users_pkey">
+    <key id="40" parent="29" name="users_pkey">
       <ObjectId>16433</ObjectId>
       <StateNumber>503</StateNumber>
       <ColNames>userid</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
-    <key id="40" parent="29" name="users_usermail_key">
+    <key id="41" parent="29" name="users_usermail_key">
       <ObjectId>16435</ObjectId>
       <StateNumber>536</StateNumber>
       <ColNames>usermail</ColNames>

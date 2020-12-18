@@ -12,7 +12,8 @@ using Microsoft.Extensions.Logging;
 namespace RetroUsaCars.Pages
 {
     public class Log_in : PageModel
-    {
+    { 
+        
         User userReg{ get; set;}
         [BindProperty]
         public string password { get; set; }
@@ -39,13 +40,14 @@ namespace RetroUsaCars.Pages
         {
 
 
+            User Log = CheckLoginAndLogin(LEmail, LPass);
             
-            
-            if (CheckLoginAndLogin(LEmail, LPass).password != null)
+            if (Log.password != null)
             {
 
                 HttpContext.Response.Cookies.Append("Email", LEmail);
                 HttpContext.Response.Cookies.Append("Pass",LPass);
+                HttpContext.Response.Cookies.Append("Id", Log.userid.ToString());
                 return Redirect("/Account");
             }
             return Redirect("/Fail");

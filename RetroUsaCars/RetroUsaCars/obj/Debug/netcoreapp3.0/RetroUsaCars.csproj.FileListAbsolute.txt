@@ -78,3 +78,10 @@ C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Success.cshtml.g.cs
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Account.cshtml.g.cs
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Fail.cshtml.g.cs
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\System.Web.Razor.dll
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\System.Web.Helpers.dll
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\System.Web.WebPages.dll
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Support.cshtml.g.cs

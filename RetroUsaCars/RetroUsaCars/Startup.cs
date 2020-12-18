@@ -1,3 +1,4 @@
+using System.Web.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +8,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Debug;
 namespace RetroUsaCars
 {
+    interface IPhoto
+    {
+        WebImage webImage { get; set; }
+    }
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -23,6 +28,7 @@ namespace RetroUsaCars
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
