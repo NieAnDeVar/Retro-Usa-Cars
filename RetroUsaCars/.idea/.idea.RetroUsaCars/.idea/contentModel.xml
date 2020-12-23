@@ -12,6 +12,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="models" t="Include">
+          <e p="Car.cs" t="Include" />
           <e p="Photo.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
@@ -34,6 +35,8 @@
           <e p="Index.cshtml.cs" t="Include" />
           <e p="Log in.cshtml" t="Include" />
           <e p="Log in.cshtml.cs" t="Include" />
+          <e p="SearchCar.cshtml" t="Include" />
+          <e p="SearchCar.cshtml.cs" t="Include" />
           <e p="Success.cshtml" t="Include" />
           <e p="Success.cshtml.cs" t="Include" />
           <e p="Support.cshtml" t="Include" />
@@ -131,6 +134,7 @@
           <e p="Photos" t="Include">
             <e p="default.png" t="Include" />
           </e>
+          <e p="PhotosCars" t="Include" />
         </e>
       </e>
       <e p="RetroUsaCars.sln" t="IncludeFlat" />

@@ -57,6 +57,7 @@ namespace RetroUsaCars.Pages
         public IActionResult OnPostReg()
         {
             if (Register(usermail, password, password2, username))
+            
             {
                 return Redirect("/Success");
             }

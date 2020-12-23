@@ -789,9 +789,10 @@ false Zulu
     <database id="2" parent="1" name="Retro Usa Cars">
       <ObjectId>16425</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>564</IntrospectionStateNumber>
+      <IntrospectionStateNumber>590</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16426|16428|1
+sequence|table|16458|16450|8
 </Relations>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -848,7 +849,7 @@ false Zulu
       <Comment>standard public schema</Comment>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>565</IntrospectionStateNumber>
+      <IntrospectionStateNumber>591</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="16" parent="2" name="heap">
@@ -918,18 +919,87 @@ false Zulu
     <language id="25" parent="2" name="internal"/>
     <language id="26" parent="2" name="plpgsql"/>
     <language id="27" parent="2" name="sql"/>
-    <sequence id="28" parent="15" name="users_userid_seq">
+    <sequence id="28" parent="15" name="cars_id_seq">
+      <ObjectId>16458</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>589</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="29" parent="15" name="users_userid_seq">
       <ObjectId>16426</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>503</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <table id="29" parent="15" name="users">
+    <table id="30" parent="15" name="cars">
+      <ObjectId>16450</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>589</StateNumber>
+    </table>
+    <table id="31" parent="15" name="users">
       <ObjectId>16428</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>563</StateNumber>
     </table>
-    <column id="30" parent="29" name="userid">
+    <column id="32" parent="30" name="brand">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <StateNumber>575</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="33" parent="30" name="model">
+      <Position>3</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <StateNumber>575</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="34" parent="30" name="color">
+      <Position>4</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <StateNumber>575</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="35" parent="30" name="photoname">
+      <Position>5</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <StateNumber>575</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="36" parent="30" name="price">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>575</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="37" parent="30" name="isavailable">
+      <Position>7</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>575</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="38" parent="30" name="id">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>589</StateNumber>
+      <DefaultExpression>nextval(&apos;cars_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="39" parent="30" name="cars_pkey">
+      <ObjectId>16461</ObjectId>
+      <StateNumber>589</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="40" parent="30" name="cars_pkey">
+      <ObjectId>16462</ObjectId>
+      <StateNumber>589</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>cars_pkey</UnderlyingIndexName>
+    </key>
+    <column id="41" parent="31" name="userid">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -937,69 +1007,69 @@ false Zulu
       <DefaultExpression>nextval(&apos;users_userid_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="31" parent="29" name="balance">
+    <column id="42" parent="31" name="balance">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>503</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="32" parent="29" name="isadmin">
+    <column id="43" parent="31" name="isadmin">
       <Position>3</Position>
       <DataType>boolean|0s</DataType>
       <StateNumber>503</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="33" parent="29" name="isavailable">
+    <column id="44" parent="31" name="isavailable">
       <Position>4</Position>
       <DataType>boolean|0s</DataType>
       <StateNumber>503</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="34" parent="29" name="password">
+    <column id="45" parent="31" name="password">
       <Position>5</Position>
       <DataType>varchar(25)|0s</DataType>
       <StateNumber>503</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="35" parent="29" name="name">
+    <column id="46" parent="31" name="name">
       <Position>8</Position>
       <DataType>varchar(20)|0s</DataType>
       <StateNumber>509</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="36" parent="29" name="usermail">
+    <column id="47" parent="31" name="usermail">
       <Position>9</Position>
       <DataType>varchar(20)|0s</DataType>
       <StateNumber>536</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="37" parent="29" name="photoname">
+    <column id="48" parent="31" name="photoname">
       <Position>10</Position>
       <DataType>varchar(20)|0s</DataType>
       <StateNumber>563</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="38" parent="29" name="users_pkey">
+    <index id="49" parent="31" name="users_pkey">
       <ObjectId>16432</ObjectId>
       <StateNumber>503</StateNumber>
       <ColNames>userid</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <index id="39" parent="29" name="users_usermail_key">
+    <index id="50" parent="31" name="users_usermail_key">
       <ObjectId>16434</ObjectId>
       <StateNumber>536</StateNumber>
       <ColNames>usermail</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="40" parent="29" name="users_pkey">
+    <key id="51" parent="31" name="users_pkey">
       <ObjectId>16433</ObjectId>
       <StateNumber>503</StateNumber>
       <ColNames>userid</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
-    <key id="41" parent="29" name="users_usermail_key">
+    <key id="52" parent="31" name="users_usermail_key">
       <ObjectId>16435</ObjectId>
       <StateNumber>536</StateNumber>
       <ColNames>usermail</ColNames>

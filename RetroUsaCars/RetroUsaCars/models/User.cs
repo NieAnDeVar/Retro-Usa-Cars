@@ -67,7 +67,7 @@ namespace RetroUsaCars.models
 
             using var cmd = new NpgsqlCommand();
             cmd.Connection = con;
-            cmd.CommandText = "INSERT INTO Users (balance, isadmin,isavailable, password,usermail, name,photoname) VALUES(0,false,true,@pas1,@email,@username,default.png)";
+            cmd.CommandText = "INSERT INTO Users (balance, isadmin,isavailable, password,usermail, name,photoname) VALUES(0,false,true,@pas1,@email,@username,'default.png')";
             cmd.Parameters.AddWithValue("email", email);
             cmd.Parameters.AddWithValue("pas1", pas1);
             cmd.Parameters.AddWithValue("username", username);
@@ -95,7 +95,7 @@ namespace RetroUsaCars.models
                     reader.Read();
                     if (reader.HasRows)
                 {
-                    if ((reader.GetString(4) == pass) && (reader.GetBoolean(2) == true))
+                    if ((reader.GetString(4) == pass) && (reader.GetBoolean(3) == true))
                     {
                         user.password = pass;
                         user.userid = reader.GetInt32(0);

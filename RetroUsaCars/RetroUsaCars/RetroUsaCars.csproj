@@ -25,4 +25,9 @@
     <None Include="wwwroot\Photos\default.png" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="wwwroot\PhotosCars" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,5 @@
 ﻿@page
-@using System;
-@model RetroUsaCars.Pages.AdminAccount
+@model RetroUsaCars.Pages.SearchCar
 @using RetroUsaCars.models
 @using RetroUsaCars.Pages
 @using static RetroUsaCars.models.Photo
@@ -8,25 +7,15 @@
 @using static System.Web.Helpers.WebImage;
 @using System;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@using Microsoft.AspNetCore.Http
 
 
-@{
-
-    string id = HttpContext.Request.Cookies["id"];
-    string path = Photo.GetPath(Convert.ToInt32(id));
-    path = @"/Photos/" + path;
-}
        
 
 
 @{
     Layout = null;
 }
-@{
-    RetroUsaCars.models.User user = new User();
-    user = CheckLoginAndLogin(HttpContext.Request.Cookies["Email"], HttpContext.Request.Cookies["Pass"]);
-}
+
 
 <!DOCTYPE html>
 <html>
@@ -45,13 +34,14 @@
 
     <span class="v23_6"><a class = "aq" href="Account.html" >Support</a></span>
     <span class="v25_0"><a class = "aq" href="FAQ.html" >FAQ</a></span>
-    <span class="v23_4"><a class = "aq"  asp-page="SearchCar"> Search</a></span>
+    <span class="v23_4"><a class = "aq" href="Cars.html" >Cars</a></span>
     <div class="v42_7"></div>
-    <span class="v42_8"><img src="@path" alt="@path" width="300px" /> @user.username <br> balance: @user.balance<br>
-        BANHAMMER
+    <span class="v42_8">
         <form method="post">
-            <input asp-for="email" type="text"></input>
-            <input type="submit"></input>
+            <input  type="text" placeholder="Search"/>
+            <input type="text" placeholder="Color"/>
+            <input type="text" placeholder="Price"/>
+            <input type="submit" />
         </form>
     </span>
 </div>
