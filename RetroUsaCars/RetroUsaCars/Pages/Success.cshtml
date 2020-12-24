@@ -1,5 +1,6 @@
 ﻿@page
 @model RetroUsaCars.Pages.Success
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
     Layout = null;
@@ -20,9 +21,9 @@
 		<span class="v42_9"></span>
 		<div class="v36_42"></div>
 
-			<span class="v23_6"><a class = "aq" href="Account.html" >Account</a></span>
-		<span class="v25_0"><a class = "aq" href="FAQ.html" >FAQ</a></span>
-		<span class="v23_4"><a class = "aq" href="Cars.html" >Cars</a></span>
+			<span class="v23_6"><a class = "aq" asp-page="ModelsCar" >Models</a></span>
+                    <span class="v25_0"><a class = "aq" asp-page="FAQ" >FAQ</a></span>
+                    <span class="v23_4"><a class = "aq"  asp-page="SearchCar">Search</a></span>
 			<div class="v42_7"></div>
 			<span class="v42_8">Success!</span>
 		</div>

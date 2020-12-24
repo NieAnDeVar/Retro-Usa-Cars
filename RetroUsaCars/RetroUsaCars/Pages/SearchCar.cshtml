@@ -32,15 +32,14 @@
     <span class="v42_9"></span>
     <div class="v36_42"></div>
 
-    <span class="v23_6"><a class = "aq" href="Account.html" >Support</a></span>
-    <span class="v25_0"><a class = "aq" href="FAQ.html" >FAQ</a></span>
-    <span class="v23_4"><a class = "aq" href="Cars.html" >Cars</a></span>
+    <span class="v23_6"><a class = "aq" asp-page="ModelCar" >Models</a></span>
+            <span class="v25_0"><a class = "aq" asp-page="FAQ" >FAQ</a></span>
+            <span class="v23_4"><a class = "aq"  asp-page="SearchCar">Search</a></span>
     <div class="v42_7"></div>
     <span class="v42_8">
         <form method="post">
-            <input  type="text" placeholder="Search"/>
-            <input type="text" placeholder="Color"/>
-            <input type="text" placeholder="Price"/>
+            <input asp-for="BrandOrNameCar" type="text" placeholder="Search"/>
+            <input asp-for="color" type="text" placeholder="Color"/>
             <input type="submit" />
         </form>
     </span>

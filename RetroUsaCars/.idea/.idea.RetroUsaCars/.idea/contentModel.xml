@@ -29,18 +29,22 @@
           <e p="Account.cshtml.cs" t="Include" />
           <e p="AdminAccount.cshtml" t="Include" />
           <e p="AdminAccount.cshtml.cs" t="Include" />
+          <e p="Car.cshtml" t="Include" />
+          <e p="Car.cshtml.cs" t="Include" />
           <e p="Fail.cshtml" t="Include" />
           <e p="Fail.cshtml.cs" t="Include" />
+          <e p="FAQ.cshtml" t="Include" />
+          <e p="FAQ.cshtml.cs" t="Include" />
           <e p="Index.cshtml" t="Include" />
           <e p="Index.cshtml.cs" t="Include" />
           <e p="Log in.cshtml" t="Include" />
           <e p="Log in.cshtml.cs" t="Include" />
+          <e p="ModelsCar.cshtml" t="Include" />
+          <e p="ModelsCar.cshtml.cs" t="Include" />
           <e p="SearchCar.cshtml" t="Include" />
           <e p="SearchCar.cshtml.cs" t="Include" />
           <e p="Success.cshtml" t="Include" />
           <e p="Success.cshtml.cs" t="Include" />
-          <e p="Support.cshtml" t="Include" />
-          <e p="Support.cshtml.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -134,7 +138,9 @@
           <e p="Photos" t="Include">
             <e p="default.png" t="Include" />
           </e>
-          <e p="PhotosCars" t="Include" />
+          <e p="PhotosCars" t="Include">
+            <e p="default.png" t="Include" />
+          </e>
         </e>
       </e>
       <e p="RetroUsaCars.sln" t="IncludeFlat" />

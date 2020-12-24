@@ -2,7 +2,7 @@
 
 namespace RetroUsaCars.Pages
 {
-    public class Support : PageModel
+    public class ModelsCar : PageModel
     {
         public void OnGet()
         {

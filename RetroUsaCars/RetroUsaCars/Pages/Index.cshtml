@@ -1,4 +1,5 @@
 ﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,15 +50,9 @@
     <span class="v2_10">Kazan, 2020</span>
     <div class="v23_2"></div>
 
-    <span class="v23_5">
-        <a @Url.Page("/Support") >Support</a>
-    </span>
-    <span class="v25_0">
-        <a @Url.Page("/FAQ")>FAQ</a>
-    </span>
-    <span class="v23_4">
-        <a @Url.Page("/Cars")>Cars</a>
-    </span>
+    <span class="v23_6"><a class = "aq" asp-page="ModelsCar" >Models</a></span>
+        <span class="v25_0"><a class = "aq" asp-page="FAQ" >FAQ</a></span>
+        <span class="v23_4"><a class = "aq"  asp-page="SearchCar">Search</a></span>
 </div>
 </body>
 </html>

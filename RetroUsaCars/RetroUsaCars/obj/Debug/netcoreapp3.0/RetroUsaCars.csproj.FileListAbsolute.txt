@@ -84,6 +84,8 @@ C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\System.Web.WebPages.Razor.dll
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\System.Web.WebPages.dll
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\bin\Debug\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
-C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Support.cshtml.g.cs
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\AdminAccount.cshtml.g.cs
 C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\SearchCar.cshtml.g.cs
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\Car.cshtml.g.cs
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\FAQ.cshtml.g.cs
+C:\Users\User\Desktop\WORK\Сема\Retro-Usa-Cars\RetroUsaCars\RetroUsaCars\obj\Debug\netcoreapp3.0\Razor\Pages\ModelsCar.cshtml.g.cs

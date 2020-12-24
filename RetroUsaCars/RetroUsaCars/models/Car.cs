@@ -15,7 +15,7 @@ namespace RetroUsaCars.models
         public bool isavailable{ get; set; }
         public string color{ get; set; }
         
-        private List<Car> ShowCarWithModelOrBrand(string s)
+        private static List<Car> ShowCarWithModelOrBrand(string s)
         {
             List<Car> list = new List<Car>();
             var cs = "Host=localhost;Username=postgres;Password=qwerty;Database=Retro Usa Cars;";
@@ -49,7 +49,7 @@ namespace RetroUsaCars.models
             reader.Close();
             return list;
         }
-        private List<Car> ShowCarWithColor(string s)
+        private static List<Car> ShowCarWithColor(string s)
         {
             List<Car> list = new List<Car>();
             var cs = "Host=localhost;Username=postgres;Password=qwerty;Database=Retro Usa Cars;";
@@ -82,7 +82,7 @@ namespace RetroUsaCars.models
             reader.Close();
             return list;
         }
-        private List<Car> ShowCarWithModelOrBrandAndColor(string s,string color)
+        private static List<Car> ShowCarWithModelOrBrandAndColor(string s,string color)
         {
             List<Car> list = new List<Car>();
             var cs = "Host=localhost;Username=postgres;Password=qwerty;Database=Retro Usa Cars;";
@@ -96,7 +96,7 @@ namespace RetroUsaCars.models
             cmd.Parameters.AddWithValue("color", color);
             cmd.Prepare();
             var reader = cmd.ExecuteReader();
-            int i = 0;
+   
             while (reader.Read())
             { 
                 if (reader.HasRows)
@@ -118,7 +118,7 @@ namespace RetroUsaCars.models
             return list;
         }
 
-        public List<Car> ShowCar(string BrandOrModel, string color)
+        public static List<Car> ShowCar(string BrandOrModel, string color)
         {
             List<Car> list = new List<Car>();
             if (color != null)

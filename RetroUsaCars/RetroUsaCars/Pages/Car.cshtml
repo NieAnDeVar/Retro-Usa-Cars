@@ -1,6 +1,5 @@
-﻿@page
-@using System;
-@model RetroUsaCars.Pages.AdminAccount
+﻿@page ""
+@model RetroUsaCars.Pages.Car
 @using RetroUsaCars.models
 @using RetroUsaCars.Pages
 @using static RetroUsaCars.models.Photo
@@ -8,16 +7,6 @@
 @using static System.Web.Helpers.WebImage;
 @using System;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@using Microsoft.AspNetCore.Http
-
-
-@{
-
-    string id = HttpContext.Request.Cookies["id"];
-    string path = Photo.GetPath(Convert.ToInt32(id));
-    path = @"/Photos/" + path;
-}
-       
 
 
 @{
@@ -43,16 +32,26 @@
     <span class="v42_9"></span>
     <div class="v36_42"></div>
 
-    <span class="v23_6"><a class = "aq" asp-page="ModelsCar" >Models</a></span>
-    <span class="v25_0"><a class = "aq" asp-page="FAQ" >FAQ</a></span>
-    <span class="v23_4"><a class = "aq"  asp-page="SearchCar"> Search</a></span>
+    <span class="v23_6"><a class = "aq" href="Account.html" >Support</a></span>
+    <span class="v25_0"><a class = "aq" href="FAQ.html" >FAQ</a></span>
+    <span class="v23_4"><a class = "aq" @Url.Page("/SearchCar") >Search Cars</a></span>
     <div class="v42_7"></div>
-    <span class="v42_8"><img src="@path" alt="@path" width="300px" /> @user.username <br> balance: @user.balance<br>
-        BANHAMMER
-        <form method="post">
-            <input asp-for="email" type="text"></input>
-            <input type="submit"></input>
-        </form>
+    <span class="v42_8"> 
+        <table>
+        @{
+            foreach (var car in Model.list)
+            {
+                <tr>
+                    <td><img width="100px" height="100px" src="PhotosCars/@car.photoname"></td>
+                    <td>@car.brand</td>
+                    <td>@car.models</td>
+                    <td>@car.color</td>
+                    <td><a href="@Url.Page("")">@car.price</a></td>
+                </tr>
+            }
+        }
+        </table>
+
     </span>
 </div>
 </body>
